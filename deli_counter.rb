@@ -21,5 +21,7 @@ def now_serving(guest)
   if guest==0 
     puts "There is nobody waiting to be served!"
   else
-    puts guest.
-  
+    puts "Now serving #{guest.first}!"
+    guest.shift
+  end
+end
