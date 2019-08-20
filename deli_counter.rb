@@ -18,7 +18,7 @@ def take_a_number(deli, name)
 end
 
 def now_serving(guest)
-  if guest==0 
+  if guest.size==0 
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{guest.first}."
