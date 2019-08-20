@@ -2,5 +2,6 @@
 katz_deli = []
 
 def line(order)
-  order  1
+  if order > 0
+    puts 
   
